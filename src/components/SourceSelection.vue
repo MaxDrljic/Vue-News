@@ -6,7 +6,13 @@
 
 <script>
 export default {
-  name: 'sourceselection'
+  name: 'sourceselection',
+  data () {
+    return {
+      sources: [],
+      source: ''
+    } 
+  }
 }
 </script>
 
